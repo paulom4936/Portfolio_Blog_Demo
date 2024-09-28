@@ -1,0 +1,45 @@
+{% include "header.html" %}
+
+<!-- Page Header-->
+<header
+  class="masthead"
+  style="background-image: url('../static/assets/img/about-bg.jpg')"
+>
+  <div class="container position-relative px-4 px-lg-5">
+    <div class="row gx-4 gx-lg-5 justify-content-center">
+      <div class="col-md-10 col-lg-8 col-xl-7">
+        <div class="page-heading">
+          <h1>About</h1>
+          <span class="subheading">This website is a simple project which has functionalities of a blog website.</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<!-- Main Content-->
+<main class="mb-4">
+  <div class="container px-4 px-lg-5">
+    <div class="row gx-4 gx-lg-5 justify-content-center">
+      <div class="col-md-10 col-lg-8 col-xl-7">
+        <p>
+          This website has login/register functions that saves the information on a database. The database has
+          hashing and salting implemented on the passwords of the users.
+        </p>
+        <p>
+          The design of the website uses HTML5 and CSS3 while the layout was made using Bootstrap. This is faster than
+          doing the layout by scratch and I could focus more on the functionalities of the website.
+        </p>
+        <p>
+          Inside the website, we have forms for users to fill up for registration of an account and a contact page where I used SMTP (Simple Mail Transfer Protocol)
+          in order for users to contact the developer. For the admin account, it has functionalities of adding, deleting and updating
+          the blogs while the users can comment on the blogs posted.
+        </p>
+        <p>
+          I opted to add functionalities to my website rather than design as I am more comfortable programming the logic of an application.
+        </p>
+      </div>
+    </div>
+  </div>
+</main>
+
+{% include "footer.html" %}
